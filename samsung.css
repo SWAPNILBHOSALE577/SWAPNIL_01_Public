@@ -1,0 +1,20 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Ensures fixed column widths */
+}
+
+th, td {
+  border: 1px solid #333;
+  width: 20%;
+  height: -webkit-fill-available;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.scrollable {
+      height: 500px;
+
+  overflow-y: auto;
+}
